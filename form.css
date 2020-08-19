@@ -1,0 +1,283 @@
+
+
+.grid-container {
+	display : grid;
+	
+	grid-template-areas: 'header1 header1 header1 header1' 'header2 header2 header2 header2' 'sp1 sp1 sp1 sp5' 'sp1 sp1 sp1 sp5' ;
+	
+	grid-gap: 5px;
+	
+	background:  url(esut.jpg) ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+max-width:100%;	
+	
+	padding : 5px;
+}
+
+.grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding : 20px  0;
+font-size: 30px;
+	
+}
+
+.header1{
+	grid-area: header1;
+}
+
+.header2{
+	grid-area: header2;
+}
+
+.item1 {
+	grid-area: sp1 ; 
+}
+
+
+
+.item5 {
+	grid-area : sp5 ; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.passport{
+	margin-left: 50% ;
+	
+}
+
+
+.myform{
+display: grid;
+
+grid-template-areas: 'space5 space5 upload upload' 'sur surname surname surname' 'fir firstname firstname firstname' 'mid midname midname midname' 'ema email email email' 'pho phone phone phone' 'dob dd mm yyyy ' 'stat state state state' 'lg lga lga lga' 'sexy sex sex sex' 'mstat status status status' 'relg relig relig relig' 'dis disable disable disable' 'per perm perm perm' 'res reside reside reside' 'space3 space3 space3 space3' 'space4 space4 space4 space4'  'fan faname faname faname' 'mon moname moname moname' 'nok kin kin kin' 'nokno nokpho nokpho nokpho'  'rship krship krship krship	'   'space   space submit space1'  ;
+	grid-gap: 20px;
+	
+	background:  url(winter.jpg) ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+max-width:100%;	
+background-attachment: fixed;
+	font-size: 30px;
+	padding : 10px;
+	
+}
+
+.myform >   {
+	background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding : 20px  0;
+font-size: 30px;
+
+	
+}
+
+.myform > input {
+	width: 100%;
+}
+
+
+.myform > input[type=button], input[type=submit], input[type=reset] {
+	
+	width: 40%;
+	background-color: #4CAF50;
+	border:none;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.space5{
+	grid-area: space5;
+}
+
+
+.upload{
+	grid-area: upload;
+}
+.sur{
+	grid-area: sur;
+}
+
+.fir{
+	grid-area: fir;
+}
+
+.mid{
+	grid-area: mid ;
+}
+
+.ema{
+	grid-area: ema;
+}
+
+.pho{
+	grid-area: pho;
+}
+
+
+
+
+
+.surname{
+	grid-area: surname ;
+}
+
+.firstname{
+	grid-area: firstname;
+}
+
+.midname{
+	grid-area: midname;
+}
+
+.email{
+	grid-area: email;
+}
+
+.phone{
+	grid-area: phone;
+}
+
+.submit{
+	grid-area: submit;
+}
+
+.space{
+	grid-area: space;
+}
+.space1{
+	grid-area: space1;
+}
+
+.dob{
+	grid-area: dob;
+}
+
+.dd{
+	grid-area: dd;
+}
+.mm{
+	grid-area: mm;
+}
+.yyyy{
+	grid-area: yyyy;
+}
+
+.stat{
+	grid-area: stat;
+}
+
+.state{
+	grid-area: state;
+}
+
+.lg{
+	grid-area: lg;
+}
+
+.lga{
+	grid-area: lga;
+}
+.sexy{
+	grid-area: sexy;
+}
+.sex{
+	grid-area: sex;
+}
+.mstat{
+	grid-area: mstat;
+}
+.status{
+	grid-area: status;
+}
+.relg{
+	grid-area: relg;
+}
+.relig{
+	grid-area: relig;
+}
+.dis{
+	grid-area: dis;
+}
+.disable{
+	grid-area: disable;
+}
+.per{
+	grid-area: per;
+}
+.perm{
+	grid-area: perm;
+}
+.res{
+	grid-area: res;
+}
+.reside{
+	grid-area: reside;
+}
+.space3{
+	grid-area: space3;
+}
+.space4{
+	grid-area: space4;
+}
+.fan{
+	grid-area: fan;
+}
+.faname{
+	grid-area: faname;
+}
+.mon{
+	grid-area: mon;
+}
+.moname{
+	grid-area: moname;
+}
+
+.nok{
+	grid-area: nok;
+}
+.kin{
+	grid-area: kin;
+}
+.nokno{
+	grid-area: nokno;
+}
+.nokpho{
+	grid-area: nokpho;
+}
+
+.rship{
+	grid-area: rship;
+}
+.krship{
+	grid-area: krship;
+}
+
+
+
+
+
+
+
+
+
+
+

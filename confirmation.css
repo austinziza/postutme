@@ -1,0 +1,39 @@
+
+
+body {
+background:  url(bark.jpg) ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+max-width:100%;	
+background-attachment: fixed;
+	color: #000000;
+}
+
+h1{
+	font-size: 300%;
+	color: ##A52A2A;
+}
+
+table{
+	font-size: 200%;
+}
+
+.tab {
+	background-color: #ccffff;
+}
+
+.tab1 {
+	background-color: #FDF5E6;
+}
+
+.tab2{
+	background-color: #FFE4E1;
+}
+
+.tab3 {
+	background-color: #EEE8AA;
+}
+
+.tab4{
+	background-color: #FFF8DC;
+}

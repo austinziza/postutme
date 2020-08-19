@@ -1,0 +1,247 @@
+.grid-container {
+	display : grid;
+	
+	grid-template-areas: 'header1 header1 header1 header1' 'header2 header2 header2 header2' 'sp1 sp1 sp1 sp5' 'sp1 sp1 sp1 sp5' ;
+	
+	grid-gap: 5px;
+	
+	background:  url(esut.jpg) ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+max-width:100%;	
+background-attachment: fixed;
+padding : 5px;
+}
+
+.grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding : 20px  0;
+font-size: 30px;
+	
+}
+
+.header1{
+	grid-area: header1;
+}
+
+.header2{
+	grid-area: header2;
+}
+
+.item1 {
+	grid-area: sp1 ; 
+}
+
+
+
+.item5 {
+	grid-area : sp5 ; 
+}
+
+.myform2{
+display: grid;
+
+grid-template-areas: 'jambno jambreg jscore jambscore' 'choose choose choose choose' 'selschool sschool sschool sschool' 'selcourse course course course' 'prev prev prev prev' 'pri primary primary primary' 'priys pys priye pye' 'sec secondary secondary secondary' 'secyr secyrs secend secended' 'selex examttype selexy examyear' 'exano examno examno examno' 'upload           upload     upload upload' 'selsub selsub selgrade selgrade' 'firstsub firstsub firstgrade firstgrade' 'secondsub secondsub secondgrade secondgrade' 'thirdsub thirdsub thirdgrade thirdgrade' 'fourthsub fourthsub fourthgrade fourthgrade' 'fifthsub fifthsub fifthgrade fifthgrade' 'sixthsub sixthsub sixthgrade sixthgrade' 'seventhsub seventhsub seventhgrade seventhgrade' 'eightsub eightsub eightgrade eightgrade' 'ninthsub ninthsub ninthgrade ninthgrade' 'terms terms terms terms' 'back1 agree submit submit';
+	
+	grid-gap: 20px;
+	
+	background:  url(esut2.jpg) ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+max-width:100%;	
+	font-size: 30px;
+	padding : 10px;
+	
+}
+
+.myform2 > input {
+	width: 100%;
+}
+
+.myform2 > input.agree {
+	width: 30px;
+	height: 30px;
+}
+
+
+.myform2 > input[type=button], input[type=submit], input[type=reset] {
+	
+	width: 40%;
+	
+	border:none;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
+.jambno {
+	grid-area: jambno;
+}
+.jambreg {
+	grid-area: jambreg;
+}
+.jscore{
+	grid-area:jscore;
+}
+.jambscore {
+	grid-area: jambscore;
+}
+.choose{
+	grid-area: choose;
+}
+.selschool{
+	grid-area: selschool;
+}
+.sschool{
+	grid-area:sschool;
+}
+.selcourse{
+	grid-area: selcourse;
+}
+.course{
+	grid-area: course;
+}
+.prev{
+	grid-area: prev ;
+}
+.pri{
+	grid-area:pri;
+}
+.primary{
+	grid-area: primary;
+}
+.priys{
+	grid-area: priys;
+}
+.pys{
+	grid-area: pys;
+}
+.priye{
+	grid-area: priye;
+}
+.pye{
+	grid-area: pye;
+}
+.sec{
+	grid-area: sec;
+}
+
+.secondary{
+	grid-area: secondary;
+}
+
+.secyr{
+	grid-area: secyr;
+}
+.secyrs{
+	grid-area: secyrs;
+}
+.secend{
+	grid-area: secend;
+}
+.secended{
+	grid-area: secended;
+}
+.selex{
+	grid-area: selex;
+}
+.examttype{
+	grid-area: examttype;
+}
+.selexy{
+	grid-area: selexy;
+}
+.examyear{
+	grid-area: examyear;
+}
+.exano{
+	grid-area: exano;
+}
+.examno{
+	grid-area: examno;
+}
+.upload{
+	grid-area: upload;
+}
+.selsub{
+	grid-area: selsub;
+}
+.selgrade{
+	grid-area: selgrade;
+}
+
+.firstsub {
+	grid-area: firstsub;
+}
+
+.secondsub{
+	grid-area: secondsub;
+}
+.thirdsub{
+	grid-area: thirdsub;
+}
+.fourthsub{
+	grid-area: fourthsub;
+}
+.fifthsub{
+	grid-area: fifthsub;
+}
+.sixthsub{
+	grid-area: sixthsub;
+}
+.seventhsub{
+	grid-area: seventhsub;
+}
+.eightsub{
+	grid-area: eightsub;
+}
+.ninthsub{
+	grid-area: ninthsub;
+}
+
+.firstgrade{
+	grid-area:  firstgrade;
+}
+.secondgrade{
+	grid-area:  secondgrade;
+}
+.thirdgrade{
+	grid-area:  thirdgrade;
+}
+.fourthgrade{
+	grid-area:  fourthgrade;
+}
+.fifthgrade{
+	grid-area:  fifthgrade;
+}
+.sixthgrade{
+	grid-area:  sixthgrade;
+}
+.seventhgrade{
+	grid-area:  seventhgrade;
+}
+.eightgrade{
+	grid-area:  eightgrade;
+}
+.ninthgrade{
+	grid-area:  ninthgrade;
+}
+.terms{
+	grid-area: terms;
+}
+.agree{
+	grid-area: agree;
+}
+.submit{
+	grid-area: submit
+}
+.back1{
+	grid-area: back1;
+}
+.back{
+	grid-area: back;
+}

@@ -1,0 +1,29 @@
+body {
+background:  url(esut.jpg) ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+max-width:100%;	
+background-attachment: fixed;
+	color: #000000;
+}
+
+h1{
+	font-size: 300%;
+}
+
+p{
+	font-size: 200%;
+	font-style: italic;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	
+	width: 40%;
+	background-color: #4CAF50;
+	border:none;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
